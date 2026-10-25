@@ -49,3 +49,4 @@ section{margin:4.5rem 0}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .author-words{margin:1.5rem 0;padding-left:1.2rem;border-left:4px solid var(--pink);font-style:italic}
 .author-words footer{font-style:normal;font-weight:600;color:var(--deep)}
+.pathways h2{text-align:center}.pathways article{text-align:center}
