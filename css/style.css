@@ -58,3 +58,4 @@ section{margin:4.5rem 0}
 .ic-kollection article{text-align:center}.ic-kollection img{aspect-ratio:5/4;object-fit:cover;object-position:center top;width:100%}
 .faq details{background:rgba(255,255,255,.8);border-radius:20px;padding:1rem 1.4rem;margin:.8rem 0}
 .faq summary{cursor:pointer;font-weight:600;color:var(--deep)}
+.ic-kitchen{text-align:center}.ic-benefits .grid2 article:last-child:nth-child(odd){grid-column:1/-1}
