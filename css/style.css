@@ -37,7 +37,8 @@ section{margin:4.5rem 0}
 .sub{font-style:italic;margin-top:-.5rem}.price{font-weight:600;font-size:1.2rem;color:var(--deep)}
 .grid3,.grid2{display:grid;gap:2rem}.grid3{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:repeat(2,1fr)}
 .pathways article,.moment article{background:rgba(255,255,255,.8);border-radius:28px;padding:1rem 1rem 1.5rem}
-.pathways article img,.moment article img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.pathways article img{aspect-ratio:5/4;object-fit:cover;object-position:center top;width:100%;background:linear-gradient(135deg,#cfe3f3,#d8eee2,#f6dbe4)}
+.moment article img{width:100%;height:auto}
 .author{display:grid;grid-template-columns:220px 1fr;gap:2.5rem;align-items:center}
 .author img{border-radius:50%;aspect-ratio:1;object-fit:cover}
 .page-head{text-align:center;margin-top:3.5rem}.narrow{max-width:760px;margin-left:auto;margin-right:auto}
