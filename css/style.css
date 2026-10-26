@@ -79,3 +79,5 @@ html,body{overflow-x:clip}
 [dir=rtl] .lang-switch a{font-family:"Nunito Sans",sans-serif}
 @media(max-width:600px){.hero{margin-top:1.2rem;gap:1.2rem}.hero-art img{max-height:170px}.hero .buttons{text-align:center;display:flex;justify-content:center}}
 .social{display:flex;justify-content:center;gap:1.1rem;margin:1rem 0 .5rem}.social a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;color:var(--deep);background:rgba(255,255,255,.55);transition:color .2s,background .2s}.social a:hover,.social a:focus-visible{color:#fff;background:var(--blue)}
+/* Mobile header: solid, full-width, non-sticky (no translucent panel over content) */
+@media(max-width:760px){.site-header{position:relative;background:#fbf8f6;-webkit-backdrop-filter:none;backdrop-filter:none;width:100%;box-sizing:border-box}html,body{overflow-x:hidden}.b1{display:none}}
