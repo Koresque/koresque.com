@@ -77,3 +77,4 @@ a.card-link h2{text-decoration:none}
 html,body{overflow-x:clip}
 .lang-switch a{font-family:"Noto Naskh Arabic",sans-serif}
 [dir=rtl] .lang-switch a{font-family:"Nunito Sans",sans-serif}
+@media(max-width:600px){.hero{margin-top:1.2rem;gap:1.2rem}.hero-art img{max-height:170px}.hero .buttons{text-align:center;display:flex;justify-content:center}}
